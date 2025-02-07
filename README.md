@@ -1,68 +1,68 @@
 # ♻️ Libft ♻️
 
-`ca za tout libft pour le 42 ouioui`
+`Compilation of simple functions`
 
 
 
-### Resources utiles
+### Useful ressources
 
-**📚 [`GITBOOK`](https://42-cursus.gitbook.io/guide/rank-00/libft) 📚** - Gitbook pour libft
+**📚 [`GITBOOK`](https://42-cursus.gitbook.io/guide/rank-00/libft) 📚** - Gitbook for libft
 
-**🧪 [`FRANCINETTE`](https://github.com/xicodomingues/francinette) 🧪** - Si la francinette elle passe, alors c'est nickel
+**🧪 [`FRANCINETTE`](https://github.com/xicodomingues/francinette) 🧪** - Testing
 
 ## 
 
-### Fonctions existantes
+### Existing functions
 
-- [`ft_isalpha`](ft_isalpha.c) - est-ce une lettre ?
-- [`ft_isdigit`](ft_isdigit.c) - est-ce un chiffre ?
-- [`ft_isalnum`](ft_isalnum.c) - est-ce une lettre ou un chiffre ?
-- [`ft_isascii`](ft_isascii.c) - est-ce compris dans ASCII ?
-- [`ft_isprint`](ft_isprint.c) - est-ce imprimable ?
-- [`ft_strlen`](ft_strlen.c) - longueur d'une string
-- [`ft_memset`](ft_memset.c) - remplir une certaine mémoire avec un certain caractère (octet)
-- [`ft_bzero`](ft_bzero.c) - remplire une certaine mémoire avec des octets nuls
-- [`ft_memcpy`](ft_memcpy.c)	- copie un bout de mémoire
-- [`ft_memmove`](ft_memmove.c) - copie un bout de mémoire de façon non-destructive (voir [gitbook](https://42-cursus.gitbook.io/guide/rank-00/libft/libc-functions/ft_memmove) il est bizarre celui-ci)
-- [`ft_strlcpy`](ft_strlcpy.c)	- copie une string dans une autre
-- [`ft_strlcat`](ft_strlcat.c) - concatène une string à une autre
-- [`ft_toupper`](ft_toupper.c)	- convertis une minuscule en majscule
-- [`ft_tolower`](ft_tolower.c) - devine
-- [`ft_strchr`](ft_strchr.c)	- trouve la première occurrence d'un caractère dans une string
-- [`ft_strrchr`](ft_strrchr.c)	- trouve la dernière occurrence d'un caractère dans une string
-- [`ft_strncmp`](ft_strncmp.c) - compare deux strings
-- [`ft_memchr`](ft_memchr.c)	- trouve la première occurrence d'un caractère dans un bout de mémoire
-- [`ft_memcmp`](ft_memcmp.c) - compare deux morceaux de mémoire
-- [`ft_strnstr`](ft_strnstr.c) - trouve une string dans une string
-- [`ft_atoi`](ft_atoi.c) - convertis une string en un int
-- [`ft_calloc`](ft_calloc.c) - alloue de la mémoire en la remplissant de zéros
-- [`ft_strdup`](ft_strdup.c) - duplique une string
+- [`ft_isalpha`](ft_isalpha.c) - check if letter
+- [`ft_isdigit`](ft_isdigit.c) - check if number
+- [`ft_isalnum`](ft_isalnum.c) - check if alphanumerical
+- [`ft_isascii`](ft_isascii.c) - check if ASCII
+- [`ft_isprint`](ft_isprint.c) - check if printable
+- [`ft_strlen`](ft_strlen.c) - returns string length
+- [`ft_memset`](ft_memset.c) - changes given memory to given character
+- [`ft_bzero`](ft_bzero.c) - nulls given memory
+- [`ft_memcpy`](ft_memcpy.c)	- copies given memory
+- [`ft_memmove`](ft_memmove.c) - copies given memory in a non-destructive manner (see [gitbook](https://42-cursus.gitbook.io/guide/rank-00/libft/libc-functions/ft_memmove))
+- [`ft_strlcpy`](ft_strlcpy.c)	- copies a string in another
+- [`ft_strlcat`](ft_strlcat.c) - concatenates a string to another
+- [`ft_toupper`](ft_toupper.c)	- converts lowercase letters to upper
+- [`ft_tolower`](ft_tolower.c) - converts upperrcase letters to lower
+- [`ft_strchr`](ft_strchr.c)	- finds the first occurence of a character in a string
+- [`ft_strrchr`](ft_strrchr.c)	- finds the last occurence of a character in a string
+- [`ft_strncmp`](ft_strncmp.c) - compares two strings
+- [`ft_memchr`](ft_memchr.c)	- finds the first occurence of a character in memory
+- [`ft_memcmp`](ft_memcmp.c) - compares two bits of memory
+- [`ft_strnstr`](ft_strnstr.c) - finds a string in a string
+- [`ft_atoi`](ft_atoi.c) - converts a string in an integer
+- [`ft_calloc`](ft_calloc.c) - allocates memory and nulls it
+- [`ft_strdup`](ft_strdup.c) - duplicates a string
 
-### Fonctions inédites
+### New functions
 
-- [`ft_substr`](ft_substr.c)	- retourne une partie d'une string
-- [`ft_strjoin`](ft_strjoin.c)	- crée une string avec deux autres
-- [`ft_strtrim`](ft_strtrim.c)	- retire certains caractères du début et de la fin d'une string
-- [`ft_split`](ft_split.c)	- découpe une string en fonction d'un caractère
-- [`ft_itoa`](ft_itoa.c)	- convertis un int en string
-- [`ft_strmapi`](ft_strmapi.c)	- crée une string en appliquant une fonction à chaque caractère d'une autre string
-- [`ft_striteri`](ft_striteri.c)	- modifie une string en appliquant une fonction à chacun de ses caractères
-- [`ft_putchar_fd`](ft_putchar_fd.c)	- imprime un caractère dans le fd
-- [`ft_putstr_fd`](ft_putstr_fd.c)	- imprime une string dans le fd
-- [`ft_putendl_fd`](ft_putendl_fd.c)	- imprime une string avec un retour à la ligne dans le fd
-- [`ft_putnbr_fd`](ft_putnbr_fd.c) - imprime un nombre dans le fd
+- [`ft_substr`](ft_substr.c)	- returns part of a string
+- [`ft_strjoin`](ft_strjoin.c)	- creates a new string from a concatenation of two strings
+- [`ft_strtrim`](ft_strtrim.c)	- removes given characters form a string
+- [`ft_split`](ft_split.c)	- splits a string using a character
+- [`ft_itoa`](ft_itoa.c)	- converts an integer to a string
+- [`ft_strmapi`](ft_strmapi.c)	- creates a string by passing each character of a given string through a function
+- [`ft_striteri`](ft_striteri.c)	- modifies a string by passing each character of a given string through a function
+- [`ft_putchar_fd`](ft_putchar_fd.c)	- writes a character on fd
+- [`ft_putstr_fd`](ft_putstr_fd.c)	- writes a string on fd
+- [`ft_putendl_fd`](ft_putendl_fd.c)	- writes a string on fd with a newline
+- [`ft_putnbr_fd`](ft_putnbr_fd.c) - writes a number on fd
 
-### Fonctions bonus (listes chaînées)
+### Bonus functions (linked lists)
 
-- [`ft_lstnew`](ft_lstnew.c)	- crées une nouvelle node
-- [`ft_lstadd_front`](ft_lstadd_front.c)	- ajoute une node au début d'une liste
-- [`ft_lstsize`](ft_lstsize.c)	- nombre de nodes dans la liste
-- [`ft_lstlast`](ft_lstlast.c)	- trouve la dernière node de la liste
-- [`ft_lstadd_back`](ft_lstadd_back.c)	- ajoute une node à la fin d'une liste
-- [`ft_lstdelone`](ft_lstdelone.c)	- supprime et free une node
-- [`ft_lstclear`](ft_lstclear.c)	- supprime et free une liste
-- [`ft_lstiter`](ft_lstiter.c)	- modifie une liste en lui appliquant une fonction à chacune de ses nodes
-- [`ft_lstmap`](ft_lstmap.c) - crée une liste en appliquant une fonction à chaque node d'une autre liste
+- [`ft_lstnew`](ft_lstnew.c)	- creates a new node
+- [`ft_lstadd_front`](ft_lstadd_front.c)	- adds a node at the start
+- [`ft_lstsize`](ft_lstsize.c)	- counts the nodes
+- [`ft_lstlast`](ft_lstlast.c)	- returns the last node
+- [`ft_lstadd_back`](ft_lstadd_back.c)	- adds a node at the end
+- [`ft_lstdelone`](ft_lstdelone.c)	- deletes a node
+- [`ft_lstclear`](ft_lstclear.c)	- deletes a list
+- [`ft_lstiter`](ft_lstiter.c)	- modifies a list by passing each of its nodes through a function
+- [`ft_lstmap`](ft_lstmap.c) - creates a list by passing each node of a list through a function
 
 
 
